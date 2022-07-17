@@ -1,0 +1,169 @@
+/* === BUTTON === */
+.button {
+    font-family: 'Roboto', Arial;
+    padding: 8px 23px;
+    font-size: 14px;
+    font-weight: 600;
+    outline: 0;
+    margin: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+.button:hover {
+    transform: scale(1.03);
+}
+.buttonGroup {
+    display: flex;
+}
+.buttonGroup > * {
+    margin: 0 16px 0 0;
+}
+/* === SECTION === */
+.section {
+    width: 100%;
+    padding: 80px 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.sectionContent {
+    z-index: 3;
+}
+/* === PANEL === */
+.panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+}
+.panelContent {
+    padding: 24px 30px;
+    width: 100%;
+    flex-grow: 1;
+    max-width: 700px;
+}
+/* === SPLIT PANEL === */
+.splitPanel {
+    max-width: 960px;
+    margin: 48px 0;
+    display: flex;
+}
+.splitPanelContent {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 30px;
+    margin: auto 0;
+}
+.splitPanelContent > * {
+    margin: 8px 0;
+}
+.splitPanelImage {
+    width: 50%;
+    padding-top: 50%;
+    position: relative;
+}
+.splitPanelImage > img {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.panelHeader {
+    margin: 32px 0 0 0;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.panelHeaderIcons {
+    display: flex;
+}
+.panelHeaderIcons img {
+    height: 38px;
+    margin: 0 0 0 16px;
+}
+/* === SQUIGGLY === */
+.squiggly {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 12px;
+  margin-top: -3px;
+}
+.squigglyYellow {
+    background: radial-gradient(ellipse, transparent, transparent 3px, var(--yellow) 3px, var(--yellow) 5px, transparent 6px);
+}
+.squigglyBlue {
+    background: radial-gradient(ellipse, transparent, transparent 3px, var(--blue) 3px, var(--blue) 5px, transparent 6px);
+}
+.squigglyGreen {
+    background: radial-gradient(ellipse, transparent, transparent 3px, var(--green) 3px, var(--green) 5px, transparent 6px);
+}
+.squigglyInnerTop, .squigglyInnerBottom {
+    position: absolute;
+    background-size: 18px 20px;
+    width: 100%;
+    height: 8px;
+}
+.squigglyInnerBottom {
+  top: 8px;
+  left: 9px;
+  background-position: 0px -12px;
+}
+/* === CONTACT === */
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+    cursor: pointer;
+}
+.contact > img {
+    width: 42px;
+    height: 42px;
+    margin: 0 16px 0 0;
+    border-radius: 50%;
+}
+.contact > p {
+    font-weight: bold;
+    text-transform: none;
+    font-size: 26px;
+}
+@media screen and (max-width: 700px) {
+    .section {
+        padding: 0;
+    }
+    .splitPanel {
+        flex-direction: column;
+        margin: 0;
+    }
+    .splitPanelImage {
+        order: 1;
+    }
+    .splitPanelContent {
+        order: 2;
+    }
+    .splitPanelImage, .splitPanelContent {
+        width: 100%;
+    }
+    .panelHeaderIcons {
+        display: none;
+    }
+    .panel h1, .panel h2 {
+        margin: 0;
+    }
+}

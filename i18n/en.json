@@ -1,0 +1,63 @@
+{
+    "lang": "en",
+    "head": {
+        "title": "Xavier Hamel"
+    },
+    "hero": {
+        "titles": ["Developer", "Web", "App", "native", "and more..."],
+        "work.title": "I have worked on"
+    },
+    "about": {
+        "title": "About me",
+        "subtitle": "But Who Am I?",
+        "description": "bla"
+    },
+    "work": {
+        "title": "My Work",
+        "subtitle": "Things I have built in the past",
+        "learn_more": "Learn more",
+        "works": [
+            {
+                "title": "The FST image format",
+                "subtitle": "A hyper efficient lossless compression algorithm.",
+                "description": "FST is a simple revolutionnary lossless compression algorithm for images. It Compresses your images as much as PNG but does it up to 10x times faster. It’s simplicity is what makes it so good."
+            },
+            {
+                "title": "Caliko",
+                "subtitle": "MANAGE YOU LIFE LIKE NEVER BEFORE.",
+                "description": "Caliko is an all in one platform to manage your life. From notes, to calendar, to to do lists, to grocery lists, everything can be managed with caliko. It is available as a web app or a native application."
+            },
+            {
+                "title": "Something ToDo",
+                "subtitle": "Yet another to do list app.",
+                "description": "Something todo was designed for developers by a developer. This small app built with tauri brings vim bindings to a todo app. it’s design will remind you of your terminal. No need for a mouse, everything is controlled by a shortcut!"
+            }
+        ],
+        "more": "More on Github"
+    },
+    "skill": {
+        "title": "My Skills",
+        "skills": [
+            {
+                "title": "CLI & Algos",
+                "description": "Implementating algorithm, building cli and libraries is what i prefer. Since i have fallen in love with rust in 2020, i have never stopped building fun projects with rust."
+            },
+            {
+                "title": "Web Sites & Web Apps",
+                "description": "Propably my oldest skill, i have been building websites, web apps, platforms and services since 2013.  I have made many mistakes during those years AND have grown a lot in the years since. I am now very efficient in building websites and web apps."
+            },
+            {
+                "title": "DESKTOP & PHONE APPS",
+                "description": "Desktop and smartphone apps are an integral part of our lifes in todays age. let me help you grow your buisness by building the best app you could of hopeD for!"
+            }
+        ]
+    },
+    "contact": {
+        "contact_me": "Contact Me",
+        "subtitle": "Interested in working with me?",
+        "title": "Get in touch!"
+    },
+    "footer": {
+        "title": "Designed & Developed by Xavier Hamel"
+    }
+}

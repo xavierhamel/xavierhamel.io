@@ -1,0 +1,63 @@
+{
+    "lang": "fr",
+    "head": {
+        "title": "Xavier Hamel"
+    },
+    "hero": {
+        "titles": ["Développeur", "Web", "App", "natif", "et plus..."],
+        "work": "Projets précédents"
+    },
+    "about": {
+        "title": "À propos",
+        "subtitle": "Mais qui suis-je?",
+        "description": "bla"
+    },
+    "work": {
+        "title": "Mes projets",
+        "subtitle": "Choses que j'ai construit dans le passé",
+        "learn_more": "En savoir plus",
+        "works": [
+            {
+                "title": "Caliko",
+                "subtitle": "Gérer sa vie comme jamais auparavant.",
+                "description": "Caliko est un service tout en un pour gérer sa vie. Entre les notes, le calendrier, les tâches à faire ou encore la liste d'épicerie, tout peut être gérer par Caliko. L'application est disponible sur le web comme sur le cellulaire."
+            },
+            {
+                "title": "Le format d'image FST.",
+                "subtitle": "Un algorithme de compression sans perte ultra rapide",
+                "description": "FST est un format de compression d'image sans perte révolutionnaire. L'algorithme compresse vaut image autant que le ferait PNG mais 10x plus rapidement. Ça simplécité est ce qui le rend si bon."
+            },
+            {
+                "title": "Something ToDo",
+                "subtitle": "Encore une autre application de tâches.",
+                "description": "Something ToDo à été designé pour les développeurs par un développeur. Cette petite application construite avec Tauri apporte les raccourcis vim à une application de tâches. Son design va vous rappeler l'outil préféré des développeur: le terminal. La souris n'est plus nécessaire, tout est controlé par un raccourcis clavier!"
+            }
+        ],
+        "more": "Voir plus sur Github"
+    },
+    "skill": {
+        "title": "Mes compétences",
+        "skills": [
+            {
+                "title": "CLI & Algos",
+                "description": "Implémenter des algorithmes, construire des outils CLI et des bibliothèques est ce que je préfère. Depuis que je suis tombé en amour avec Rust en 2020, je n'ai jamais arrêté de construire des projets amusants avec Rust."
+            },
+            {
+                "title": "Sites Web & Web Apps",
+                "description": "Probablement ma compétence la plus vieille, je construis des sites, web apps, plateformes et services depuis 2013. J'ai fait beaucoup d'erreur au court des années qui m'on fait beaucoup grandir. Je suis maintenant très efficace avec les technologies du web."
+            },
+            {
+                "title": "Apps de bureau & Téléphone",
+                "description": "Les applications de bureau et de téléphone sont parties intégrales de nos vies aujourd'hui. Laissez-moi vous aider à faire grandir votre entreprise en construisant les meilleurs applictions que vous auriez pu espérer!"
+            }
+        ]
+    },
+    "contact": {
+        "contact_me": "Contactez moi",
+        "subtitle": "Intéressé de travailler avec moi?",
+        "title": "Entrez en contact!"
+    },
+    "footer": {
+        "title": "Développé & designé par Xavier Hamel"
+    }
+}

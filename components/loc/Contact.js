@@ -1,7 +1,7 @@
 import styles from '../../styles/loc.module.css';
 
 const LINKS = {
-    email: 'mailto:hire@xavierhamel.ca',
+    email: 'mailto:hire@xavierhamel.io',
     linkedin: 'https://linkedin.com/in/hire-xavier',
     github: 'https://github.com/xavierhamel',
 }

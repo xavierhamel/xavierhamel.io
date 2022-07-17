@@ -116,7 +116,7 @@ const Home = ({ lang }) => {
                 <h2>{lang.contact.subtitle}</h2>
                 <h1>{lang.contact.title}</h1>
                 <Contact.Contacts>
-                    <Contact.Contact type="email">hire@xavierhamel.ca</Contact.Contact>
+                    <Contact.Contact type="email">hire@xavierhamel.io</Contact.Contact>
                     <Contact.Contact type="linkedin">Xavier Hamel</Contact.Contact>
                     <Contact.Contact type="github">@xavierhamel</Contact.Contact>
                 </Contact.Contacts>

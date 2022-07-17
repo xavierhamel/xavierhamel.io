@@ -7,7 +7,7 @@ const LINKS = {
 }
 const Contact = ({type, children}) => {
     return (
-        <a className={styles.contact} href={LINKS[type]} target="_blank">
+        <a className={styles.contact} href={LINKS[type]} target="_blank" rel="noreferrer">
             <img src={`/img/${type}-icon.png`} alt={`${type} icon`} />
             <p>{children}</p>
         </a>
